@@ -7,9 +7,11 @@ import 'package:turf_booking_app/screens/user_dashboard.dart';
 import 'package:turf_booking_app/screens/admin_dashboard.dart';
 import 'package:turf_booking_app/screens/user_booking.dart';
 import 'package:turf_booking_app/screens/user_profile.dart';
+import 'package:firebase_core/firebase_core.dart';  // ✅ Firebase import
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();  // ✅ Firebase initialization
   runApp(TurfBookingApp());
 }
 
