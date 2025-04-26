@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1015131461097",
+    "project_id": "turfbookingapp-b7a69",
+    "storage_bucket": "turfbookingapp-b7a69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015131461097:android:42442332e863c9ab44e778",
+        "android_client_info": {
+          "package_name": "com.example.turfbookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx2p7JOwRIwqBNv2JPZbwuh4Hkd-NVZzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
