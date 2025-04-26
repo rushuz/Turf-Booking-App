@@ -1,3 +1,61 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Flutter/Dart related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+
+# Ignore generated files
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Firebase related
+firebase-debug.log
+firebase-debug.*.log
+
+# iOS specific
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+
+# Android specific
+android/.gradle/
+android/app/build/
+android/build/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+shelf/
+workspace.xml
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Environment files (secrets)
+.env
+.env.*
+
+# Coverage files
+coverage/
+*.lcov
